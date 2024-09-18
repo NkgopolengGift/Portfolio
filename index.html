@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NkgopolengGift | Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!-- ========Navbar starts==========-->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <span class="material-icons-outlined me-1">important_devices</span>
+            <span>N</span>Kgopoleng<span>G</span>ift-<span>Portfolio</span>
+          </a>
+          <buttonimportant_devices
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </buttonimportant_devices>
+          <div class="container px-3">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- ============== Navbar Ends ================= -->
+   
+    <!-- =======Hero section starts ============= -->
+    <div class="container px-5  hero">
+        <div class="row align-items-center">
+          <div class="col-lg-8 col-xl-7 col-xxl-6">
+            <div class="my-5 hero-content">
+              <h1 class="fw-bold mb-2">Hi! I'm Gift,</h1>
+              <h3 class="text-primary fw-bold mb-2">|Aspiring Software Developer</h3>
+              <h3 class="text-primary fw-bold mb-2">|Freelancer</h3>
+              <h3 class="text-primary fw-bold mb-2">|Tech Enthusiast</h3>
+              
+              <br>
+              <div class="d-grid gap-3 d-sm-flex ">
+                <a class="btn btn-primary btn-large text-uppercase" href="#about">
+                  About Me
+                  <span class="material-icons-outlined ms-2">help_outline</span>
+                </a>
+                <a class="btn btn-primary btn-large text-uppercase" href="#projects">
+                    Projects
+                  <span class="material-icons-outlined ms-2">manage_search</span>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-xl-5 col-xxl-6 justify-content-center">
+            <img class="img-fluid rounded-3 my-5" src="pictures/hero.png" alt="Hero Image">
+          </div>
+        </div>
+      </div>
+    <!-- =======Hero section Ends ============= -->
+
+    <!-- ========About Me Starts ========-->
+<section id="about" class="about-section py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h1 class="text-primary section-title mb-2">About Me</h1>
+     
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="about-img position-relative">
+          <img src="./pictures/about-1.jpg" alt="about picture" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 fs-6">
+        <p>
+          I am a dedicated software developer with a strong background in Java, Spring Boot, JEE, Python, Django,
+          and front-end technologies like CSS, HTML, Javascript, React and Tailwind CSS. I have worked on various
+          impactful projects such as JobMatchup and CareerPathSA, helping to solve real-world problems through
+          innovative solutions. I am passionate about creating meaningful software that can improve lives, whether
+          it's by streamlining processes, enhancing security, or guiding users to better decisions. I thrive on learning
+          new technologies, optimizing systems, and delivering high-quality solutions. My future goals include
+          deepening my expertise in mobile development and cloud solutions, while contributing to projects that
+          have a positive social impact.
+         </p>
+        <a href="https://github.com/NkgopolengGift" target="_blank" class="btn btn-primary btn-large">
+          Visit My GitHub
+          <span class="material-icons-outlined ms-1">github</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ========About Me Ends ========-->
+
+
+<!-- ========== Projects Section Starts ============ -->
+<section id="projects" class="text-center py-5">
+  <div class="container py-5">
+      <div class="row justify-content-center mb-4">
+          <h2 class="fw-bold text-primary section-title">Projects</h2>
+      </div>
+      <div class="row">
+          <!-- Project Box 1 -->
+          <div class="col-lg-4 mb-4">
+              <div class="card h-100 shadow border-0 project-box">
+                  <div class="card-body text-center">
+                      <span class="material-icons-outlined project-icon">code</span>
+                      <h5 class="card-title mb-3">InfluencerConnect</h5>
+                      <p class="card-text fs-6">
+                        InfluencerConnect is a platform designed to connect influencers with potential 
+                        sponsors by aggregating key statistics from various social media platforms like 
+                        YouTube, TikTok, Facebook, etc. As part of a school project, I developed the 
+                        entire backend using Django and PostgreSQL, handling user authentication, 
+                        data aggregation, and seamless sponsor-influencer interaction. The platform helps 
+                        brands identify influencers based on social media performance metrics using HTML, 
+                        CSS, and JavaScript for the front-end.
+                      </p>
+                      <a class="btn btn-outline-primary" href="https://github.com/NkgopolengGift/InfluencerConnect" target="_blank">
+                          Source Code
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <!-- Project Box 2 -->
+          <div class="col-lg-4 mb-4">
+              <div class="card h-100 shadow border-0 project-box">
+                  <div class="card-body text-center">
+                      <span class="material-icons-outlined project-icon">code</span>
+                      <h5 class="card-title mb-3">JobMatchup</h5>
+                      <p class="card-text fs-6">
+                        JobMatchup is a platform aimed at helping individuals without formal 
+                        qualifications find jobs such as cleaner, gardener, and more. I built the 
+                        application using Spring Boot (Java) for the backend, PostgreSQL for the database, 
+                        and JavaScript, HTML, and CSS for the front-end interface. The platform helps 
+                        reduce unemployment by providing accessible job listings to users in South Africa.
+                      </p>
+                      <a class="btn btn-outline-primary" href="https://github.com/NkgopolengGift/JobMatchup" target="_blank">
+                          Source Code
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <!-- Project Box 3 -->
+          <div class="col-lg-4 mb-4">
+              <div class="card h-100 shadow border-0 project-box">
+                  <div class="card-body text-center">
+                      <span class="material-icons-outlined project-icon">code</span>
+                      <h5 class="card-title mb-3">Balaudzi Electrical & Projects </h5>
+                      <p class="card-text fs-6">
+                        Balaudzi Electrical Projects is a website I created to showcase and manage electrical
+                         services provided by Balaudzi Electrical Projects. The site includes a portfolio section 
+                         for previous projects and a contact form for new service inquiries. I designed and developed 
+                         the site using HTML, Bootstrap, jQuery, Owl Carousel, and JavaScript, ensuring a clean, 
+                         professional layout and smooth user experience.
+                      </p>
+                      <a class="btn btn-outline-primary" href="https://github.com/NkgopolengGift/Balaudzi-Electrical-Projects" target="_blank">
+                          Source Code
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- ========== Projects Section Ends ============ -->
+
+
+<!-- =========Skills Section Starts============== -->
+<section id="skills" class="text-center py-5">
+  <div class="container py-5">
+    <div class="row justify-content-center mb-4">
+      <h2 class="fw-bold text-primary section-title">Skills</h2>
+    </div>
+    <div class="row">
+      <!-- Skill Card 1 -->
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100 shadow border-0 skill-box">
+          <div class="card-body text-center">
+            <span class="material-icons-outlined skill-icon">code</span>
+            <h5 class="card-title mb-3 text-white"><u>Programming Languages</u></h5>
+            <p class="card-text fs-6 text-white">
+              <p class="card-text">
+                <i class="fab fa-java text-white"></i> <b class="text-white fs-6">Java</b><br>
+                <i class="fab fa-js text-white"></i> <b class="text-white fs-6">JavaScript</b><br>
+                <i class="fab fa-css3-alt text-white"></i> <b class="text-white fs-6">CSS</b><br>
+                <i class="fab fa-html5 text-white" ></i> <b class="text-white fs-6">HTML</b><br>
+                <i class="fab fa-python text-white"></i> <b class="text-white fs-6">Python</b><br>
+                <i class="fab fa-hashtag text-white"></i> <b class="text-white fs-6">C# (basic)</b>
+            </p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill Card 2 -->
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100 shadow border-0 skill-box">
+          <div class="card-body text-center">
+            <span class="material-icons-outlined skill-icon">integration_instructions</span>
+            <h5 class="card-title mb-3 text-white"><u>Frameworks & Libraries</u></h5>
+            <p class="card-text fs-6 text-white">
+              <i class="fab fa-java"></i> <b>Spring Boot</b><br>
+              <i class="fab fa-java"></i> <b>JEE</b><br>
+              <i class="fab fa-python"></i> <b>Django</b><br>           
+              <i class="fab fa-node-js"></i> <b>Node.js</b><br>
+              <i class="fab fa-react"></i> <b>React</b>
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill Card 3 -->
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100 shadow border-0 skill-box">
+          <div class="card-body text-center">
+            <span class="material-icons-outlined skill-icon">build_circle</span>
+            <h5 class="card-title mb-3 text-white"><u>Tools & Technologies</u></h5>
+            <p class="card-text fs-6 text-white">
+              <i class="fab fa-linux"></i> <b>Linux</b><br>
+              <i class="fab fa-git"></i> <b>Git</b><br>
+              <i class="fas fa-database"></i> <b>MySql</b><br>
+              <i class="fas fa-database"></i> <b>PostgreSQL</b>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- =======End Skills Ends============ -->
+
+    <!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <div class="row text-center mb-4">
+      <h2 class="fw-bold text-primary section-title">Contact Me</h2>
+    </div>
+    <div class="row">
+      <!-- Social Media Icons -->
+      <div class="col-md-4 mb-4 d-flex justify-content-center align-items-start">
+        <div class="social-icons">
+          <a href="https://www.facebook.com/mamarara.gift.7?mibextid=ZbWKwL" target="_blank" class="social-icon">
+            <i class="fab fa-facebook-f"> Facebook</i>
+          </a>
+          <a href="https://linkedin.com/in/nkgopolenggift/" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin-in"> LinkedIn</i>
+          </a>
+          <a href="https://www.instagram.com/nkgopolenggift" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"> Instagram</i>
+          </a>
+          <a href="https://www.tiktok.com/@nkgopoleng_gift" target="_blank" class="social-icon">
+            <i class="fab fa-tiktok"> TikTok</i>
+          </a>
+          <a href="https://github.com/NkgopolengGift" target="_blank" class="social-icon">
+            <i class="fab fa-github"> GitHub</i>
+          </a>
+        </div>
+      </div>
+      <!-- Contact Form -->
+      <div class="col-md-8 mb-4">
+        <form>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" style="border-color: var(--clr-primary-1);">
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" style="border-color: var(--clr-primary-1);">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" style="border-color: var(--clr-primary-1);"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-large text-uppercase">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-white py-3">
+        <p class="fs-4">&copy; 2024 NkgopolengGift. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
